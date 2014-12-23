@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Module Test</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="scripts/cc.js"></script>
+</head>
+<body>
+  <p>Just testing out JavaScript Modules</p>
+  <div id="elecionSummaryContainer" class="electionContainer clearfix">
+  
+  </div>
+  
+  <div id="electionDetails" class="electionContainer clearfix">
+
+  </div> 
+      
+  <script>
+    cc.getElectionResultSummary("#elecionSummaryContainer");
+    cc.getElectionResultDetails("#electionDetails");
+  </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+.electionContainer {
+    max-width: 748px;
+    background-color: #EEE;
+    font-family: 'Open Sans', sans-serif;
+    color: #212121;
+}
+
+#electionTitle {
+    float: left;
+    background-color: #69213b;
+    padding: 20px;
+    color: white;
+    margin-right: 3%;
+}
+
+#electionTitle h2, #electionTitle h3 { text-align: center; line-height: 24px; margin: 0; }
+#electionTitle h2 { font-size: 24px; font-weight: 400 }
+#electionTitle h3 { font-size: 14px; font-weight: 300; font-style: italic; }
+#electionTitle h3 span#updated { font-size: 18px; }
+#electionSummary { padding-top: 30px; }
+
+.electionLabels { 
+    padding-right: 3%;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: lowercase;
+    line-height: 20px;
+    float: left;
+    max-width: 33%;
+}
+#label2 { padding-right: 0; }
+
+#totalcounted, #counted {
+    font-size: 42px;
+    font-weight: 400;
+    color: #2f5065;
+    vertical-align: ;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+#electionDetails {
+  padding:10px;
+  margin-top: 30px;
+  max-width: 728px;
+}
+
+/* -- electionTabs -- */
+/*.reset{background-color:#F5F1DE;border:none;}*/
+ul{margin:0;padding:0;border:0}
+.electionTabs{padding:0px;width:100%;display:inline-block}
+.electionTab-links:after{display:block;clear:both;content:''}
+.electionTab-links li{margin:0 5px;float:left;list-style:none}
+.electionTab-links a{padding:9px 15px;display:inline-block;border-radius:3px 3px 0 0;background:#EEE;font-size:16px;color:#212121;transition:all linear .15s}
+.electionTab-links a:hover{background:#FFEE9B;text-decoration:none}
+li.active a,li.active a:hover{background:#69213b;color:white}
+.electionTab-content{padding:0px 15px;border-radius:3px;box-shadow:-1px 1px 1px rgba(0,0,0,.15);background:#FFF}
+.electionTab{margin-top:-4px; display:none}
+.electionTab.active{display:block}
+
+/* -- Results -- */
+h2.contest { margin-top: 0; }
+.electionTab-content { padding-top: 15px; }
+.detail { float: left; margin-right: 20px; }
+.detail-row { clear: both; }
+div.contest { clear:both; padding: 20px; }
+div.contest:nth-child(2n) { background: #eee; }
+.choice { min-width: 50%; }
+.votecount, .percentage { min-width: 20%; text-align: right; }
+.choice, .votecount, .percentage { margin-bottom: 10px; }
