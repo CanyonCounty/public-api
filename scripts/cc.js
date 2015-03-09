@@ -91,7 +91,7 @@ var cc = (function () {
   function getElectionResultSummary(div) {
     var container = $(div);
     if (container !== undefined) {
-      $.ajax(baseURL + "/Election/ResultSummary", {
+      $.ajax(baseURL + "/Election/ElectionResultSummary", {
         success: function (data) {
           if (!data.Error) {
             // We're good to go, start creating things
